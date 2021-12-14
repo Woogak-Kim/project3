@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://api.pubg.com/shards/steam/players?filter[playerNames]=YY3676--YuanBao"
+url = "https://api.pubg.com/shards/kakao/players?filter[playerNames]=ANew_Anna"
 
 header = { 
     "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YjdmNGI5MC0zOWYyLTAxM2EtNzE4Yy0wOWQzZTk3ZDU4YzYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjM4OTI2MTk5LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6ImRyYW5nZWwifQ.lErH1X1rimCNc1ilTkeZXUTJ_-XTg1QnkMSSOS06LiI", 

@@ -1,7 +1,7 @@
 import requests
 import json
 
-match_url = "https://api.pubg.com/shards/steam/matches/9b605fe8-0808-4649-808d-a444fd9f9d4c"
+match_url = "https://api.pubg.com/shards/steam/matches/04d223c7-a142-42d5-af84-d161677d4989"
 match_header = { 
     "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YjdmNGI5MC0zOWYyLTAxM2EtNzE4Yy0wOWQzZTk3ZDU4YzYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjM4OTI2MTk5LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6ImRyYW5nZWwifQ.lErH1X1rimCNc1ilTkeZXUTJ_-XTg1QnkMSSOS06LiI", 
     "Accept": "application/vnd.api+json"
@@ -29,6 +29,8 @@ def status(match):
     print('Ai =',ai_count,'Human =',player_count)
     print('Real Players =',player_list)
 
-print('Map =',match_data['data']['attributes']['mapName'])
-print('UTC =',match_data['data']['attributes']['createdAt'])
-status(match_data)
+# print('Map =',match_data['data']['attributes']['mapName'])
+# print('UTC =',match_data['data']['attributes']['createdAt'])
+# status(match_data)
+
+print(match_data)
